@@ -29,3 +29,17 @@
       apt:
         name: nginx
         state: latest
+
+    - name: Create directory if it doesn't exist   
+      ansible.builtin.file:
+      path: /home/ubuntu/knowledge-gap
+      state: directory
+
+    - name: Create file
+      ansible.builtin.file:
+        path: /home/ubuntu/knowledege-gap
+        state: file 
+        mode: '0644'
+        owner: root 
+        group: jenkins
+        
