@@ -37,9 +37,8 @@
 
     - name: Create file
       ansible.builtin.file:
-        path: /home/ubuntu/knowledege-gap
-        state: file 
-        mode: '0644'
-        owner: root 
-        group: jenkins
-        
+      path: /home/ubuntu/knowledege-gap
+      state: file 
+      mode: '0644'
+      owner: root 
+      group: jenkins
