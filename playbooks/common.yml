@@ -39,6 +39,6 @@
       ansible.builtin.file:
         path: /home/ubuntu/knowledge-gap/testing
         state: touch 
-        mode:  '0644'
+        mode: '0644'
         owner: root 
         group: jenkins
