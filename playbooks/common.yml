@@ -37,7 +37,7 @@
 
     - name: Create file
       ansible.builtin.file:
-        path: /home/ubuntu/knowledege-gap/testing
+        path: /home/ubuntu/knowledge-gap/testing
         state: touch 
         mode: '0644'
         owner: root 
